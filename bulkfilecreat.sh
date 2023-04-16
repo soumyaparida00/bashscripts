@@ -3,5 +3,5 @@
 
 for i in {000..500}
 do 
-    echo file${i}.txt > file${i}.txt
+    echo thisisfile${i} > file${i}.txt
 done | tar -czvf test.tar.gz ./*
