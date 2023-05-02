@@ -1,0 +1,11 @@
+#! /bin/bash
+#This script will check if the file is present and comment first line.
+
+ls -al |
+if
+ grep a1.txt
+    echo "This file is present"
+
+    then
+    sed -i '/1/  s/^#*/#/' -i a1.txt
+fi
