@@ -7,5 +7,5 @@ if
     echo "This file is present"
 
     then
-    sed -i '/1/  s/^#*/#/' -i a1.txt
+    sed -i '' '1,2 s/^#*//' a1.txt
 fi
